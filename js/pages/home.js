@@ -50,3 +50,4 @@ darkModeIcon.onclick = () => {
   darkModeIcon.classList.toggle('bx-sun');
   document.body.classList.toggle('dark-mode');
 };
+

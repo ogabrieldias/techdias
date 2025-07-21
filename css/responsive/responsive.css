@@ -9,7 +9,7 @@
     }
     
     .logo {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
 
     section {
@@ -28,7 +28,7 @@
     }
 
     section {
-        padding: 10rem 7% 2rem;
+        padding: 4rem 7% 2rem;
     }
 
     html {
@@ -45,6 +45,14 @@
         color: var(--main-color);
         opacity: .7;
     }
+
+    .footer {
+        padding:  2rem 3%;
+    }
+
+    .footer-iconTop {
+        margin: auto;
+    }
 }  
 
 @media (max-width: 768px) {
@@ -60,17 +68,26 @@
         margin-bottom: .1rem;
     }
 
+    .home {
+        padding: 0px 3% 23rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+
     .navbar {
         position: absolute;
         top: 100%;
         left: 0;
         width: 100%;
+        height: 100vh;
         padding: 0rem 3%;
         background: var(--bg-color);
         border-top: .1rem solid var(--cor-destaque);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
         display: none;
         text-align: center;
+        z-index: 1000;
     }
 
     .navbar.active {
@@ -79,8 +96,8 @@
 
     .navbar a {
         display: block;
-        font-size: 2rem;
-        margin: 5rem 0;
+        font-size: 2.7rem;
+        margin: 4rem 0;
         color: var(--cor-destaque);
     }
 
@@ -112,6 +129,14 @@
     }
 
     .home {
-        padding: 0 3% 30rem;
+        padding: 11rem 6% 3rem;
     }
-}
+
+    .rectangle-effect {
+        top: 20%;  /* Ajuste da posição para dispositivos menores */
+        width: 43rem;
+        height: 19rem;
+    }
+}	
+
+

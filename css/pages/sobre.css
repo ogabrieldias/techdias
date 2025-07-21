@@ -1,0 +1,30 @@
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0; /* Espaço interno para não colar nas outras sections */
+
+}
+
+.sobre-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.circle-effect {
+    width: 35rem;
+    height: 35rem;
+    border-radius: 50%;
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.7), rgba(0, 0, 255, 0.7));
+    opacity: 50%;
+    filter: blur(4rem);
+    position: absolute;
+    bottom: 73%;
+    left: 50%;
+    transform: rotate(41deg);
+    z-index: -1;
+    pointer-events: none;
+}
