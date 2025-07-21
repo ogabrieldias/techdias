@@ -1,3 +1,4 @@
+
 /* Aqui começa a configuração do header */
 .header {
     position: fixed;
@@ -8,7 +9,7 @@
     background-color: transparent;
     display: flex;
     align-items: center;
-    z-index: 1;
+    z-index: 1000;
     transition: .5s;
 }
 
@@ -110,4 +111,4 @@
     font-size: 2.4rem;
     color: #333;
 }
-/* Aqui termina a configuração do footer */
+/* Aqui termina a configuração do footer */

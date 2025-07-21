@@ -130,6 +130,7 @@
 
     .home {
         padding: 11rem 6% 3rem;
+        margin-bottom: 5rem
     }
 
     .rectangle-effect {
@@ -138,5 +139,3 @@
         height: 19rem;
     }
 }	
-
-

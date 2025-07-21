@@ -1,0 +1,21 @@
+.serviços {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0; /* Espaço interno para não colar nas outras sections */
+    z-index: -2;
+}
+
+.serviços-content {
+    position: absolute;
+    max-width: 33rem;
+    z-index: 2;
+    top: 8rem;
+    text-align: center;
+}
+
+.serviços-content h2 {
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin-bottom: .3rem;
+}
