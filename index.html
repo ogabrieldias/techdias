@@ -1,118 +1,164 @@
 <!DOCTYPE html>
-    <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-        <title>Document</title>
-        <!-- swiper css -->
-        <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" /> -->
-        <!-- box-icons -->
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <!-- /box-icons -->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>Document</title>
+    <!-- swiper css -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" /> -->
+    <!-- box-icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- /box-icons -->
 
-        <!-- Links de CSS -->
-        <link rel="stylesheet" href="css/pages/home.css"> <!-- Link style.css -->
-        <link rel="stylesheet" href="css/pages/sobre.css"> <!-- Link style.css -->
-        <link rel="stylesheet" href="css/pages/serviços.css"> <!-- Link style.css -->
-        <link rel="stylesheet" href="css/layout/layout.css"> <!-- Link layout.css -->
-        <link rel="stylesheet" href="css/responsive/responsive.css"> <!-- Link para responsividade -->
-        <link rel="stylesheet" href="css/themes/temas.css"> <!-- Link para temas -->
+    <!-- Links de CSS -->
+    <link rel="stylesheet" href="css/pages/home.css"> <!-- Link style.css -->
+    <link rel="stylesheet" href="css/pages/sobre.css"> <!-- Link style.css -->
+    <link rel="stylesheet" href="css/pages/serviços.css"> <!-- Link style.css -->
 
-        <!-- swiper js -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="css/layout/layout.css"> <!-- Link layout.css -->
+    <link rel="stylesheet" href="css/responsive/responsive.css"> <!-- Link para responsividade -->
+    <link rel="stylesheet" href="css/themes/temas.css"> <!-- Link para temas -->
 
-        <!-- custom js -->
-        <script src="js/pages/home.js" defer></script>
-        
-        <!-- scroll reveal -->
-        <script src="https://unpkg.com/scrollreveal"></script>
-        
-    </head>
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <body>
+    <!-- custom js -->
+    <script src="js/pages/home.js" defer></script>
+    
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+</head>
 
-        <header class="header"> <!-- Class Design header -->
-        <a href="#home" class="logo">TechDias</a> <!-- Class logo | /logo -->
-            <nav class="navbar"> <!-- Class navbar -->
-                <a href="#home" class="active" >Home</a> <!-- ID home | /home & Class active -->
-                <a href="#sobre">Sobre</a> <!-- ID About -->
-                <a href="#serviços">Serviços</a> <!-- ID Services -->
-                <a href="#planos">Planos</a> <!-- ID portfolio -->
-                <a href="#depoimentos">Depoimentos</a> <!-- ID contato -->
-                <a href="#agendar">Agendar</a> <!-- ID contato -->
-                <a href="#faq">FAQ</a> <!-- ID contato -->
-                <a href="#contatos">Contatos</a> <!-- ID contato -->
-            </nav> <!-- /navbar-->
+<body>
 
-            <div class='bx bx-moon' id="darkMode-icon"></div>
+    <header class="header"> <!-- Class Design header -->
+    <a href="#home" class="logo">TechDias</a> <!-- Class logo | /logo -->
+        <nav class="navbar"> <!-- Class navbar -->
+            <a href="#home" class="active" >Home</a> <!-- ID home | /home & Class active -->
+            <a href="#sobre">Sobre</a> <!-- ID About -->
+            <a href="#serviços">Serviços</a> <!-- ID Services -->
+            <a href="#planos">Planos</a> <!-- ID portfolio -->
+            <a href="#depoimentos">Depoimentos</a> <!-- ID contato -->
+            <a href="#agendar">Agendar</a> <!-- ID contato -->
+            <a href="#faq">FAQ</a> <!-- ID contato -->
+            <a href="#contatos">Contatos</a> <!-- ID contato -->
+        </nav> <!-- /navbar-->
 
-            <div class="bx bx-menu" id="menu-icon"></div>
-        </header> <!-- Class /Design header -->
+        <div class='bx bx-moon' id="darkMode-icon"></div>
 
-        <section class="home" id="home"> <!--Class home | ID home -->
-            <div class="home-content"> <!-- Class home-content -->
-                <!-- efeito cylinder-effect -->
-                <div class="rectangle-effect"></div>
-                <h1>TechDias</h1>
-                <p>A Tecnologia da Informação é essencial para indivíduos e organizações, sendo o suporte especializado indispensável para garantir segurança, eficiência operacional e continuidade dos processos.</p>
-                <a href="" download="" class="btn">Saiba mais</a>  <!-- Class btn -->
-                <div class="imagem_placa_home">
-                    <img src="assets/images/placa_mae_home.unknown" alt="Imagem de Placa Mãe" class="imagem_home">
-                </div>
-                <div class="circle-effect" id="circle-effect-left-home"></div> <!-- Class circle-effect | /circle-effect --> 
-            </div> <!-- Class /home-content -->
-        </section> <!-- Class /home | ID /home -->
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header> <!-- Class /Design header -->
 
-        <div class="circle-effect"></div> <!-- Class circle-effect | /circle-effect --> 
-        
-        <section class="sobre" id="sobre"> <!-- Class sobre | ID sobre  -->
-            <div class="sobre-content">
-                <h2>Mais sobre nossa marca</h2>
-                <p>Nossa equipe é composta por especialistas dedicados em tecnologia, comprometidos em fornecer soluções inovadoras e eficientes. Estamos sempre atualizados com as tendências do mercado para garantir a excelência em cada projeto.</p>
-                <a href="" download="" class="btn" id="btn_sobre">Saiba mais</a>
-            </div>
-            
-            <div class="rectangle-effect" id="rectangle-effect-sobre"></div>
+    <section class="home" id="home"> <!--Class home | ID home -->
+        <div class="home-content"> <!-- Class home-content -->
+            <!-- efeito cylinder-effect -->
+            <div class="rectangle-effect"></div>
+            <h1>TechDias</h1>
+            <p>A Tecnologia da Informação é essencial para indivíduos e organizações, sendo o suporte especializado indispensável para garantir segurança, eficiência operacional e continuidade dos processos.</p>
+            <a href="" download="" class="btn">Saiba mais</a>  <!-- Class btn -->
             <div class="imagem_placa_home">
-                <img src="assets/images/sobre_programacao.webp" alt="Imagem de Placa Mãe" class="imagem_home">
+                <img src="assets/images/placa_mae_home.unknown" alt="Imagem de Placa Mãe" class="imagem_home">
             </div>
-            <div class="circle-effect" id="circle-effect-left-sobre"></div> <!-- Class circle-effect | /circle-effect -->
-        </section> <!-- Class /sobre | ID /sobre  -->
+            <div class="circle-effect" id="circle-effect-left-home"></div> <!-- Class circle-effect | /circle-effect --> 
+        </div> <!-- Class /home-content -->
         
-        <section class="serviços" id="serviços"> <!-- Class serviços | ID serviços -->
-            <div class="serviços-content">
-                <h2>Serviços mais solicitados</h2>
+    </section> <!-- Class /home | ID /home -->
+    <div class="circle-effect"></div> <!-- Class circle-effect | /circle-effect --> 
+    
+    <section class="sobre" id="sobre"> <!-- Class sobre | ID sobre  -->
+        <div class="sobre-content">
+            <h2>Mais sobre nossa marca</h2>
+            <p>Nossa equipe é composta por especialistas dedicados em tecnologia, comprometidos em fornecer soluções inovadoras e eficientes. Estamos sempre atualizados com as tendências do mercado para garantir a excelência em cada projeto.</p>
+            <a href="" download="" class="btn" id="btn_sobre">Saiba mais</a>
+        </div>
+        <div class="rectangle-effect" id="rectangle-effect-sobre"></div>
+        <div class="imagem_placa_home">
+            <img src="assets/images/sobre_programacao.webp" alt="Imagem de Placa Mãe" class="imagem_home">
+        </div>
+        <div class="circle-effect" id="circle-effect-left-sobre"></div> <!-- Class circle-effect | /circle-effect -->
+    </section> <!-- Class /sobre | ID /sobre  -->
+    
+    <section class="serviços" id="serviços"> <!-- Class serviços | ID serviços -->
+        <div class="serviços-content">
+            <h2>Serviços mais solicitados</h2>
+            <div class="cards-servicos">
+                <!-- Card 1 -->
+                <div class="card-servico">
+                    <div class="card-barra"></div>
+                    <img src="assets/images/sobre_programacao.webp" alt="Formatação com Backup" class="card-img">
+                    <div class="card-info">
+                        <h3>Formatação com Backup</h3>
+                        <p class="card-preco">R$ 119,99</p>
+                        <span class="card-seta">&#9660;</span>
+                        <p class="card-desc">Lorem ipsum dolor sit amet. Os operadores gráficos e tipográficos sabem disso bem, na realidade, todas as profissões que lidam com o universo da comunicação.</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="card-servico">
+                    <div class="card-barra"></div>
+                    <img src="assets/images/sobre_programacao.webp" alt="Formatação com Backup" class="card-img">
+                    <div class="card-info">
+                        <h3>Formatação com Backup</h3>
+                        <p class="card-preco">R$ 119,99</p>
+                        <span class="card-seta">&#9660;</span>
+                        <p class="card-desc">Lorem ipsum dolor sit amet. Os operadores gráficos e tipográficos sabem disso bem, na realidade, todas as profissões que lidam com o universo da comunicação.</p>
+                    </div>
+                </div>
+                <!-- Card 3 --> 
+                <div class="card-servico">
+                    <div class="card-barra"></div>
+                    <img src="assets/images/sobre_programacao.webp" alt="Formatação com Backup" class="card-img">
+                    <div class="card-info">
+                        <h3>Formatação com Backup</h3>
+                        <p class="card-preco">R$ 119,99</p>
+                        <span class="card-seta">&#9660;</span>
+                        <p class="card-desc">Lorem ipsum dolor sit amet. Os operadores gráficos e tipográficos sabem disso bem, na realidade, todas as profissões que lidam com o universo da comunicação.</p>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="card-servico">
+                    <div class="card-barra"></div>
+                    <img src="assets/images/sobre_programacao.webp" alt="Formatação com Backup" class="card-img">
+                    <div class="card-info">
+                        <h3>Formatação com Backup</h3>
+                        <p class="card-preco">R$ 119,99</p>
+                        <span class="card-seta">&#9660;</span>
+                        <p class="card-desc">Lorem ipsum dolor sit amet. Os operadores gráficos e tipográficos sabem disso bem, na realidade, todas as profissões que lidam com o universo da comunicação.</p>
+                    </div>
+                </div>
             </div>
-        </section> <!-- Class /serviços | ID /serviços -->
+        </div>
+    </section> <!-- Class /serviços | ID /serviços -->
 
-        <section class="planos" id="planos"> <!-- Class planos | ID planos -->
-        </section> <!-- Class /planos | ID /planos -->
-        
-        <section class="depoimentos" id="depoimentos"> <!-- Class depoimentos | ID depoimentos -->
-        </section> <!-- Class /planos | ID /planos -->
+    <section class="planos" id="planos"> <!-- Class planos | ID planos -->
+    </section> <!-- Class /planos | ID /planos -->
+    
+    <section class="depoimentos" id="depoimentos"> <!-- Class depoimentos | ID depoimentos -->
+    </section> <!-- Class /planos | ID /planos -->
 
-        <section class="agendar" id="agendar">
-        </section>
+    <section class="agendar" id="agendar">
+    </section>
 
-        <section class="faq" id="faq">
-        </section>
+    <section class="faq" id="faq">
+    </section>
 
-        <section class="contatos" id="contatos">
-        </section>
+    <section class="contatos" id="contatos">
+    </section>
 
 
-        <footer class="footer">
-            <div class="footer-text">
-                <p>Copyright © 2024 by Gabriel Bernardino Dias | All rights Reserved</p>
-            </div>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright © 2024 by Gabriel Bernardino Dias | All rights Reserved</p>
+        </div>
 
-            <div class="footer-iconTop">
-                <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
-            </div>
-        </footer>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
 
-    </body>
+</body>
     </html>

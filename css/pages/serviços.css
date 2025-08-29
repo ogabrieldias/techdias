@@ -4,6 +4,8 @@
     justify-content: center;
     padding: 80px 0; /* Espaço interno para não colar nas outras sections */
     z-index: -2;
+    min-height: 260vh; /* Garante que a seção ocupe pelo menos 200% da altura da viewport */
+    bottom: 10rem;
 }
 
 .serviços-content {
@@ -18,4 +20,84 @@
     font-size: 3.6rem;
     font-weight: 700;
     margin-bottom: .3rem;
+}
+
+.cards-servicos {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.card-servico {
+    background: #af171794;
+    border-radius: 2rem;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    width: 260px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-barra {
+    width: 80%;
+    height: 8px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
+    margin-bottom: 1rem;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 1.2rem;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+.card-info {
+    text-align: center;
+    width: 100%;
+}
+
+.card-info h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.card-info.open .card-desc {
+    display: block; /* Exibe a descrição quando o card está aberto */
+    max-height: 100px; /* Define uma altura máxima para a descrição */
+}
+
+.card-info.open .card-seta {
+    transform: rotate(180deg); /* Inverte a seta quando o card está aberto */
+}
+
+.card-preco {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: .5rem;
+}
+
+.card-seta {
+    font-size: 1.5rem;
+    color: #888;
+    display: block;
+    margin-bottom: .5rem;
+    cursor: pointer; /* Mostra que é clicável */
+    transition: transform 0.3s;
+}
+
+.card-desc {
+    display: none; /* Esconde por padrão */
+    font-size: 0.95rem;
+    color: #666;
+    margin-top: .5rem;
+    transition: max-height 0.3s ease;
 }

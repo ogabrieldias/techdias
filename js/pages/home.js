@@ -51,3 +51,12 @@ darkModeIcon.onclick = () => {
   document.body.classList.toggle('dark-mode');
 };
 
+
+document.querySelectorAll('.card-seta').forEach(seta => {
+    seta.addEventListener('click', function() {
+        const cardInfo = this.parentElement;
+        cardInfo.classList.toggle('open');
+    });
+});
+
+

@@ -47,7 +47,7 @@ body.dark-mode .circle-effect {
 /* Fim do estilo para o cilíndrico fixo com gradiente */
 
 section {
-    min-height: 103vh;
+    min-height: 112vh;
     width: 100%;
     padding: 10rem 7% 2rem;
     background-color: var(--bg-color-figma);
@@ -129,6 +129,7 @@ input.btn:hover, a.btn:hover{
     object-fit: fill; /* Faz a imagem cobrir o espaço sem distorcer */
     z-index: 2;
     position: relative;
+    background-size: cover; /* Garante que a imagem cubra todo o espaço */
 }
 /* Aqui termina a configuração da section home */
 
